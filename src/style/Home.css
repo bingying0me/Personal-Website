@@ -1,0 +1,192 @@
+/* Home.css */
+body {
+    font-family: cursive !important;
+}
+
+.mainbody {
+    width: 76%;
+    margin: auto;
+}
+
+.home-header {
+    color: #778899;
+    padding: 0 20px;
+}
+
+.home-header-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+  
+.name {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.position {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.my-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.small-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.small-logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.small-logo img:hover{ 
+    border-bottom:3px solid #778899;
+}
+
+  
+/* Main Content Styles */
+.container {
+    padding: 20px;
+    border-bottom: 5px dotted #778899;
+}
+
+.content {
+    font-size: 18px;
+    color: #778899;
+    margin-top: 0;
+    text-align: justify;
+}
+
+.container-title {
+    color: #778899;
+}
+
+.content-list-padding{
+    padding-bottom: 20px;
+}
+
+.content-date{
+    display: inline;
+    float: right;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-logo {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.skill-table {
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 0 10px 20px 10px;
+    text-align: center;
+}
+
+.skill-table:hover {
+    border: 5px solid;
+}
+
+.flex-display {
+    display: flex;
+}
+
+.project {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.project-image {
+    height: 200px;
+    margin-right: 30px;
+}
+
+.project-image-margin {
+    margin: 70px 30px 0 -60px;
+    rotate: 10deg;
+}
+
+.project-link {
+    flex-grow: 1;
+    place-self: flex-end;
+}
+
+.project-logo {
+    margin: 20px;
+    width: 30px;
+    float: right;
+}
+
+.project-logo:hover{ 
+    border-bottom:3px solid #778899;
+}
+
+@media only screen and (max-width: 850px) {
+    .flex-display {
+        justify-content: center;
+    }
+
+    .project {
+        flex-direction: column;
+        text-align: center;
+    } 
+
+    .project-image {
+        margin-right: 0;
+    }
+
+    .project-logo {
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .mainbody {
+        width: 100%;
+    }
+
+    .skill {
+        flex-direction: column;
+    }
+
+    .skill-table {
+        margin: 10px 0;
+    }
+
+    .project-image {
+        height: 100px;
+    }
+
+    .project-logo {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .home-header-title {
+        display: block;
+        text-align: center;
+    }
+
+    .small-logo {
+        justify-content: center;
+    }
+}
+  

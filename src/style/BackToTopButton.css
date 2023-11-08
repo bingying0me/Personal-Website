@@ -1,0 +1,20 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #295a8a;
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Make it circular */
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.back-to-top:hover {
+    background-color: #007efb;
+}
+  
