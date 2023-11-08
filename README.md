@@ -1,3 +1,5 @@
+![alt text]([https://github.com/bingying0me/Personal-Website/blob/main/PersonalWebsiteImage.PNG?raw=true)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
