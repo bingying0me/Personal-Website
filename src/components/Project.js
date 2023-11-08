@@ -41,7 +41,7 @@ const Project = () => {
             <div>JAN 2018 - MAY 2018</div>
             <br />
             <div>
-              Website: HTML, CSS and PHP
+              Website: HTML, CSS, PHP
             </div>
           </div>
           <div className="project-link">
