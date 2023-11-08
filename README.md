@@ -1,4 +1,4 @@
-[![alt text]([https://github.com/bingying0me/Personal-Website/blob/main/PersonalWebsiteImage.PNG?raw=true)](https://github.com/bingying0me/Personal-Website/blob/main/PersonalWebsiteImage.PNG)
+![Alt text](https://github.com/bingying0me/Personal-Website/blob/main/PersonalWebsiteImage.PNG)
 
 # Getting Started with Create React App
 
