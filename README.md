@@ -1,3 +1,4 @@
+<h1>DEMO IMAGE</h1>
 ![Alt text](https://github.com/bingying0me/Personal-Website/blob/main/PersonalWebsiteImage.PNG)
 
 # Getting Started with Create React App
