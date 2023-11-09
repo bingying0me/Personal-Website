@@ -40,7 +40,7 @@ function Home() {
               <a href="bingying0me@gmail.com"><img src="/images/email.png" alt="email" /></a>
             </div>
           </div>
-          <img className="my-photo" src="/images/photo.jpg" alt="photo" />
+          <img className="my-photo" src="/images/photo.png" alt="photo" />
         </div>
       </header>
       <div className="container">
