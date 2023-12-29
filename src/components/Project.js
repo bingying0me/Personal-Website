@@ -6,6 +6,38 @@ const Project = () => {
     <div className="container">
       <h1 className="container-title">PROJECT</h1>
       <div className="content">
+      <div className="content-list-padding project">
+          <div>
+            <img
+              className="project-image"
+              src="/images/exchange.png"
+              alt="exchange"
+            />
+          </div>
+          <div className="project-content">
+            <h3>Exchange Learning Platform</h3>
+            <div>NOV 2023 - DEC 2023</div>
+            <br />
+            <div>Website: HTML, CSS, React, JavaScript, Vite</div>
+            <div>Server: Java</div>
+          </div>
+          <div className="project-link">
+            <a href="https://github.com/ca-webdev">
+              <img
+                className="project-logo"
+                src="/images/github.png"
+                alt="github"
+              />
+            </a>
+            <a href="https://exchange-frontend-vite.vercel.app/">
+              <img
+                className="project-logo"
+                src="/images/web.png"
+                alt="github"
+              />
+            </a>
+          </div>
+        </div>
         <div className="content-list-padding project">
           <div>
             <img
